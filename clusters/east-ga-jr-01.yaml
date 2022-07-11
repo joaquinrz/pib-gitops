@@ -1,0 +1,11 @@
+kind: Cluster
+metadata:
+  name: east-ga-jr-01
+  labels:
+    environment: dev
+    region: east
+    zone: east-ga
+    district: east-ga-jr
+    store: east-ga-jr-01
+    domain: east-ga-jr-01.cseretail.com
+spec:

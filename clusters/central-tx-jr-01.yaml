@@ -1,0 +1,11 @@
+kind: Cluster
+metadata:
+  name: central-tx-jr-01
+  labels:
+    environment: dev
+    region: central
+    zone: central-tx
+    district: central-tx-jr
+    store: central-tx-jr-01
+    domain: central-tx-jr-01.cseretail.com
+spec:

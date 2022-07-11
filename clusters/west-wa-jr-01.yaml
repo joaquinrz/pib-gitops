@@ -1,0 +1,11 @@
+kind: Cluster
+metadata:
+  name: west-wa-jr-01
+  labels:
+    environment: dev
+    region: west
+    zone: west-wa
+    district: west-wa-jr
+    store: west-wa-jr-01
+    domain: west-wa-jr-01.cseretail.com
+spec:
