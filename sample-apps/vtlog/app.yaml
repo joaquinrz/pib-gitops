@@ -1,0 +1,10 @@
+app: vtlog
+environment: dev
+image: ghcr.io/cse-labs/pib-tlog:latest
+imageName: ghcr.io/cse-labs/pib-tlog
+imageTag: latest
+name: vtlog
+namespace: vtlog
+target: dev
+targets: [ ]
+workspace: vtlog
