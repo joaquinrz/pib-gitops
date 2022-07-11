@@ -1,0 +1,11 @@
+kind: Cluster
+metadata:
+  name: joaquin-pib
+  labels:
+    environment: dev
+    region: joaquin
+    zone: joaquin-pib
+    district: joaquin-pib
+    store: joaquin-pib
+    domain: joaquin-pib.
+spec:
