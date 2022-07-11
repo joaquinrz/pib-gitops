@@ -12,5 +12,5 @@ deployments:
             namespace: imdb
             port: 8080
             targets:
-                - all
+                - region:central
             workspace: imdb
