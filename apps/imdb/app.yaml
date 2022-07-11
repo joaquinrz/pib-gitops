@@ -13,6 +13,5 @@ deployments:
             port: 8080
             targets:
                 - region:central
-                - region:east
                 - region:west
             workspace: imdb
