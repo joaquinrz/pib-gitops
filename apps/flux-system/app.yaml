@@ -6,6 +6,6 @@ deployments:
       name: flux-system
       namespace: flux-system
       workspace: flux-system
-      repo: yourTenant/yourRepo
+      repo: joaquinrz/pib-gitops
       branch: main
       targets: [ all ]
