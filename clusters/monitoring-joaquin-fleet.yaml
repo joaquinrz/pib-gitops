@@ -1,0 +1,11 @@
+kind: Cluster
+metadata:
+  name: monitoring-joaquin-fleet
+  labels:
+    environment: dev
+    region: monitoring
+    zone: monitoring-joaquin
+    district: monitoring-joaquin-fleet
+    store: monitoring-joaquin-fleet
+    domain: monitoring-joaquin-fleet.cseretail.com
+spec:
