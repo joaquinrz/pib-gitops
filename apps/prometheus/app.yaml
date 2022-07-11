@@ -1,0 +1,16 @@
+template: .gitops
+deployments:
+    dev:
+        target: dev
+        values:
+            app: prometheus
+            environment: dev
+            imageName: prom/prometheus
+            imageTag: latest
+            name: prometheus
+            namespace: prometheus
+            prometheusURL: https://prometheus-prod-10-prod-us-central-0.grafana.net/api/prom/push
+            prometheusUser: 261866
+            targets:
+                - region:monitoring
+            workspace: prometheus

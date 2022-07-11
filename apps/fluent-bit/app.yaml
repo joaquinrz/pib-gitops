@@ -1,0 +1,17 @@
+template: .gitops
+deployments:
+    dev:
+        target: dev
+        values:
+            app: fluent-bit
+            environment: dev
+            imageName: fluent/fluent-bit
+            imageTag: 1.9
+            jobSuffix: joaquin
+            lokiHost: logs-prod-us-central1.grafana.net
+            lokiUser: 129904
+            name: fluent-bit
+            namespace: fluent-bit
+            targets:
+                - region:monitoring
+            workspace: fluent-bit

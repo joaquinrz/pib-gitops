@@ -1,0 +1,14 @@
+template: .gitops
+deployments:
+    dev:
+        target: dev
+        values:
+            app: webv
+            environment: dev
+            imageName: ghcr.io/cse-labs/pib-webv
+            imageTag: beta
+            name: webv
+            namespace: webv
+            targets:
+                - region:monitoring
+            workspace: webv
